@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.30)  18 AUG 2019 04:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.30)  18 AUG 2019 04:13
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1163,29 +1163,29 @@ Overfull \hbox (12.3076pt too wide) in paragraph at lines 155--155
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 244.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 244.
  (./first_2page.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 244.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 244.
 Package rerunfilecheck Info: File `first_2page.out' has not changed.
 (rerunfilecheck)             Checksum: 467B80AB820D2CE9787FD32424182E4E;583.
  ) 
 Here is how much of TeX's memory you used:
  22153 strings out of 492982
- 373899 string characters out of 6134895
+ 373897 string characters out of 6134895
  460994 words of memory out of 5000000
  25471 multiletter control sequences out of 15000+600000
  565262 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,11n,45p,10363b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,11n,45p,10363b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf
 -dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/share/texlive/texmf-
 dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texmf/fonts/typ
 e1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.
 pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on first_2page.pdf (2 pages, 114454 bytes).
+Output written on first_2page.pdf (2 pages, 114600 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
