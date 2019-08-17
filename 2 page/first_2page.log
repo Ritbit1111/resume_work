@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.30)  18 AUG 2019 02:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.30)  18 AUG 2019 03:14
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1185,7 +1185,7 @@ Here is how much of TeX's memory you used:
 dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texmf/fonts/typ
 e1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.
 pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on first_2page.pdf (2 pages, 114268 bytes).
+Output written on first_2page.pdf (2 pages, 114253 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
