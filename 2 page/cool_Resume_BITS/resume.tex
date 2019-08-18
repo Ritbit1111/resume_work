@@ -1,0 +1,273 @@
+\documentclass{article}
+\usepackage[a4paper,bottom = 0.6in,left = 0.75in,right = 0.75in,top = 0.2in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{titlesec}
+\usepackage[colorlinks=false]{hyperref}
+\usepackage{verbatim}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{csquotes}
+\usepackage{microtype}
+\usepackage{textcomp}
+\newcommand{\xfilll}[2][1ex]{
+\dimen0=#2\advance\dimen0 by #1
+\leaders\hrule height \dimen0 depth -#1\hfill}
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}
+\renewcommand\labelitemi{\raisebox{0.4ex}{\tiny$\bullet$}}
+\renewcommand{\labelitemii}{$\cdot$}
+\pagenumbering{gobble}
+\begin{document}
+%\vspace*{6.32cm}
+%\vspace{-20pt}
+\vspace*{5.2cm} 
+\vspace{5pt}
+\vspace{6pt}
+\hspace{-14pt}Pursuing {\bf Honors} in Computer Science and Engineering and {\bf Minor} in Management
+\vspace{-11pt}
+\section*{{\LARGE Scholastic Achievements}\xfilll[0pt]{0.5pt}}
+\vspace{-6pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\item Secured \textbf{All India Rank 168} in \textbf{JEE Advanced} among 150,000 aspirants \hfill{\sl \small (2016)}
+\item Achieved \textbf{99.93 percentile} in \textbf{JEE Main} among 1.2 million aspirants\hfill{\sl \small (2016)}
+\item Recipient of the prestigious \textbf{Kishore Vaigyanik Protsahan Yojana} (KVPY) Fellowship 
+% by Department of Science, Government of India (Young Scientist Fellowship awarded for excellence in Academics) 
+\hfill{\sl \small (2014)}
+\item Scored \textbf{398/450} in \textbf{BITSAT} (Birla Institute of Technology and Science Aptitude Test)\hfill{\sl \small (2016)}
+\item Conferred \textbf{National Talent Search Examination} (NTSE) Scholarship by NCERT
+% after securing a position in top 1000 out of 500 thousand candidates all across India
+\hfill{\sl \small (2014)}
+% \item Pursuing {\bf Minor} in {\bf Management}, currently doing a course on Operations Management
+% \item Pursuing {\bf Honors} in \textbf{Computer Science and Engineering} and {\bf Minor} in {\bf Management}
+\end{itemize}
+
+% \section*{\LARGE Interests\xfilll[0pt]{0.5pt}}
+% Machine Learning, Neural Networks, Artificial Intelligence, Natural Language Processing, Computer Vision
+\vspace{-5pt}
+\vspace{-14pt}
+\section*{\LARGE Internships and Research Projects\xfilll[0pt]{0.5pt}}
+\vspace{-6pt}
+\textbf{Personalized Hashtag Generator} \hfill{\sl \small Summer 2018}\\
+\textit{Guide: Prof. Yuling Hsueh}\hfill{\sl \small National Chung Cheng University, Taiwan}\\
+\vspace{-15pt}
+\vspace{-1pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\item Generated a personalized hashtag recommender for Instagram using \textbf{TensorFlow} for \textbf{deep learning} in Python
+% \item Utilized Amazon Lambda function to ensure active learning and Google Calendar integration and utilized Amazon Lex to implement Natural Language Understanding in the bot 
+\item Used \textbf{CNN} for \textbf{object detection} and feature extraction for further \textbf{machine translation} of images to text
+\item Applied the \textbf{soft visual attention} model on the extracted features to improve efficiency
+\item Constructed the captions using the Long Short Term Memory (\textbf{LSTM}) \textbf{RNN} on the attention model results
+\item Produced hashtags from captions using \textbf{NLP} based trimming techniques in \textbf{NLTK} package in Python
+\end{itemize}
+% \hspace{-2pt}
+\vspace{-2pt}
+\textbf{QnA Chatbot} \hfill{\sl \small Winter 2017}\\
+\textit{Dimensionless Technologies Pvt. Ltd.}\hfill{\sl \small Navi Mumbai, India}\\
+\vspace{-15pt}
+\vspace{-1pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\item Designed a QnA chatbot with basic etiquettes for answering certain FAQs related to data science and the firm
+% \item Utilized Amazon Lambda function to ensure active learning and Google Calendar integration and utilized Amazon Lex to implement Natural Language Understanding in the bot 
+\item Implemented \textbf{active learning} and integrated Google Calendar with chatbot using Amazon Lambda function
+\item Utilized Amazon Lex to implement \textbf{Natural Language Understanding} and trained the bot with JSON files
+\item Integrated the chatbot with Facebook Messenger and a website using Amazon Cognito Services
+\end{itemize}
+
+\vspace{-4pt}
+\vspace{-14pt}
+\section*{\LARGE Key Projects\xfilll[0pt]{0.5pt}}
+\vspace{-4pt}
+\vspace{-2pt}
+% \hspace{-2pt}
+\textbf{Witty Words} \hfill{\sl \small Autumn 2017}\\
+\textit{Guide: Prof. Kavi Arya}\hfill{\sl \small Course Project}\\
+\vspace{-16pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+% \item Developing a proofreading rewriter which uses \textbf{Natural Language Processing} to correct spellings and grammatical errors and suggest context based synonyms for certain words using NLTK package in Python
+\item \textls[-19]{Developed a  web app for a proofreading rewriter using \textbf{Django} backend which uses \textbf{Natural Language Processing} to correct spellings and grammatical errors and suggest synonyms for words using \textbf{NLTK} package in Python}
+\item Checked grammar using \textbf{POS tagging} and by equating the sentence structure with predefined grammar rules
+\item Suggested relevant contextual synonyms by matching candidate word trigrams in a library of corpus trigrams
+\item Integrated spelling check using \textbf{levenshtein distance} and \textbf{context words method} on the confusion set generated using symspell module of Python
+\end{itemize}
+\vspace{-2pt}
+\textbf{Xeus Search Engine} \hfill{\sl \small Spring 2017}\\
+\textit{Guide: Prof. Amitabha Sanyal}\hfill{\sl \small Course Project}\\
+\vspace{-16pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\item Generated a search engine which implements \textbf{crawling} and \textbf{indexing} over a set of web pages utilizing functional programming and HTML parsing packages in \textbf{Racket}, a multi-paradigm programming language
+\item Administered \textbf{PageRank algorithm} to sort the search results of an input query according to relevance
+\item Designed an interactive Racket \textbf{GUI} based portal for users to enter a search query
+\item Implemented a spelling correction function for errors in input search text using the data structure \textbf{trie}
+\end{itemize}
+\vspace{-2pt}
+\textbf{VR Archery Game} \hfill{\sl \small Summer 2017}\\
+\textit{Institute Technical Summer Project}\hfill{\sl \small IIT Bombay}\\
+\vspace{-15pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\item Developed a virtual reality archery game using image processing in \textbf{OpenCV Python}
+\item Utilized image processing for recognizing the orientation of the bow with respect to the target
+\item Designed the game using pygame library of Python and an alternate 3D game using \textbf{Unity3D}
+% \item Mirrored the Ubuntu display over a mobile using applications such as Teamviewer, App Cloner and Split Screen
+\end{itemize}
+\pagebreak
+\vspace*{20pt}
+\textbf{Railway Signalling Controller} \hfill{\sl \small Spring 2018}\\
+\textit{Guide: Prof. Supratik Chakraborty}\hfill{\sl \small Course Project}\\
+\vspace{-16pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\item Implemented a railway signalling controller module on \textbf{Spartan FPGA board} using \textbf{VHDL} and C back-end
+\item Established \textbf{FPGA-PC} communication through \textbf{UART} port using \textbf{flcli} API and FPGA-Link library
+\item Achieved communication between multiple FPGA boards through the UART port using a PC relay system
+% \item Mirrored the Ubuntu display over a mobile using applications such as Teamviewer, App Cloner and Split Screen
+\end{itemize}
+% \textbf{Syntactic Parser} \hfill{\sl \small Spring 2017}\\
+% \textit{Guide: Prof. Amitabha Sanyal}\hfill{\sl \small Course Project}\\
+% \vspace{-15pt}
+% \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+% \item Constructed a syntactic parser for a small rule-based language given its grammatical rules in Racket
+% \item Implemented a predicate parser, a sequential parser and an alternate parser
+% \item Tailored variable, term and expression parsers based on the basic sequential and alternate parsers
+% % using functional programming in Racket, multi-paradigm programming language
+% \end{itemize}
+
+% \pagebreak
+% \vspace*{20pt}
+\hspace{-15pt}\textbf{Spider Bot} \hfill{\sl \small Summer 2017}\\
+\textit{Innovation Cell Summer Project}\hfill{\sl \small IIT Bombay}\\
+\vspace{-15pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\item Engineered a technique to build a spiderbot (tetra-pod) with prowess of climbing up the vertical walls using suction pumps and dynamixel motors with inputs from a remote device
+% \item Incorporated \textbf{inverse kinematics} in a ROBOTIS OpenCM program to emulate the motion of a spider 
+\item Programmed in \textbf{ROBOTIS OpenCM} to emulate the motion of a spider by incorporating inverse kinematics
+\item Simulated the spider-bot motion using \textbf{V-REP Pro} to check its stability under gravitational and sheer forces
+% \item Employed three-way solenoid valves to control the vacuum in the suction cups through the \textbf{OpenCM microcontroller}
+\end{itemize}
+% \pagebreak
+% \vspace*{0pt}
+
+\hspace{-15pt}\textbf{Other Projects}\hfill{\sl \small Course Projects}
+% \hfill{\sl \small Course Projects}
+\\
+\vspace{-15pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+% \vspace{-1pt}
+\item \textbf{N-body Gravitation Simulation :} Developed a simulation of physical interaction due to gravitational forces
+between multiple particles in space and over a period of time using list comprehensions and trees in Racket
+\vspace{1pt}
+\item \textbf{Socket Programming :} Implemented file transfer protocol (\textbf{FTP}) using socket programming in C++
+\vspace{1pt}
+\item \textbf{RSA Encryption :} Programmed an RSA cryptosystem in C++ by executing Pohlig-Hellman and Baby Step Giant Step algorithm to compute discrete logarithm which is extensively used in encryption algorithms
+\vspace{1pt}
+\item \textbf{Rule based Syntactic Parser :} Designed variable, term and expression parsers based on the basic sequential and alternate parsers for a small rule-based language given its grammatical rules in Racket
+\vspace{1pt}
+\item \textbf{Wrestle.AI Robot :} Constructed an arduino coded wrestling robot, specialized in line and wall following using infrared and ultrasonic sensors, which was trained to push the opponent bot out of the arena
+% \vspace{1pt}
+\end{itemize}
+
+
+\vspace{-14pt}
+\section*{\LARGE Technical Skills\xfilll[0pt]{0.5pt}}
+\vspace{-4pt}
+\begin{tabular}{p{3.5cm} p{13.5cm}}
+  \textbf{Programming} & C++, C, Python, Java, Bash, Racket, Prolog, \LaTeX, MySQL, PostgreSQL\\
+  \textbf{Web Development} & HTML5, CSS, Bootstrap, JavaScript, Django, PHP, jQuery\\
+  \textbf{Softwares} & MATLAB, GNU Octave, TensorFlow, Gnuplot, Git, Android Studio, SOLIDWORKS, AutoCAD, Arduino, Unity3D Player, V-REP PRO\\
+\end{tabular}
+\vspace{-5pt}
+\hspace{4pt}
+
+% \pagebreak
+% \vspace*{0pt}
+\vspace{-5pt}
+\section*{\LARGE Positions of Responsibility\xfilll[0pt]{0.5pt}}
+\vspace{-4pt}
+\textbf{Department Research Coordinator, CSE} \hfill{\sl \small Apr 2017 - Present}\\
+\textit{Undergraduate Academic Council, IIT Bombay}\hfill\\
+\vspace{-16pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\item Promoting first-hand research outlook through \textbf{projects with professors} via Portal for Project Allocation
+\item Responsible for improving the undergraduate research culture within the department
+% \item Proposing \textbf{industry-level projects} for students, either directly or through the Industrial Research Portal
+% \item Refurbishing \textbf{Student Reading Groups} for undergraduates to help them gain research exposure
+% \item Led a team of \textbf{20 organizers} and allotted them relevant work related to planning and publicity
+\end{itemize}
+\vspace{-1pt}
+\textbf{Teaching Assistant} \hfill{\sl \small Jul 2018 - Present}\\
+\textit{CS251 - Software Systems Lab}\hfill\\
+\vspace{-16pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\item \textls[-19]{Responsible for clearing concepts of students and giving them hands-on experience in multiple programming languages}
+\item Involved in setting up and evaluating lab problem statements for a batch of \textbf{130 students}
+% \item Negotiated with cultural institutes for 5+ LYPs (Live Your Passion) for winners to showcase their talent
+% \item Led a team of \textbf{20 organizers} and allotted them relevant work related to planning and publicity
+\end{itemize}
+\vspace{-1pt}
+\textbf{Department Academic Mentor} \hfill{\sl \small Mar 2018 - Present}\\
+\textit{Computer Science and Engineering Department}\hfill\\
+\vspace{-16pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\item Mentor to 6 sophomores for their academic and general concerns, and helping them cope with the curriculum
+\end{itemize}
+\vspace{-1pt}
+\textbf{Web Convener} \hfill{\sl \small Sept 2017 - Jun 2018}\\
+\textit{IIT Bombay Student Satellite Project}\hfill\\
+\vspace{-16pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+% \item Revamped the website of the project in less than \textbf{10 days} with all the aesthetic features
+\item Added \textbf{web simulations} to cater to the younger audience giving an insight into the space environment
+% Maintaining the webpages of {\bf institute student satellites}, Pratham and Advitiy up to date
+\item Developed a \textbf{Wiki} (Satellite 101) for the benefit of institutes aiming to start their own satellite project
+\end{itemize}
+% \vspace{-1pt}
+% \textbf{Coordinator, Competitions} \hfill{\sl \small Apr 2017 - Dec 2017}\\
+% \textit{Mood Indigo, Asia's Largest Cultural Festival}\hfill\\
+% \vspace{-16pt}
+% \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+% \item Conceptualized and organized dance competitions for \textbf{Multicity Eliminations} in 7 cities across India
+% \item Contacted renowned artists and \textbf{50+ colleges} to invite them for 10+ competitions in dance genre
+% \item Negotiated with cultural institutes for 5+ LYPs (Live Your Passion) for winners to showcase their talent
+% \item Led a team of \textbf{20 organizers} and allotted them relevant work related to planning and publicity
+% \end{itemize}
+
+% \vspace{-1pt}
+% \textbf{Organizer, Events} \hfill{\sl \small Oct 2016 - Dec 2016}\\
+% \textit{Techfest,  Asia's Largest Science and Technology Festival}\hfill\\
+% \vspace{-16pt}
+% \begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+% \item Organized free {\bf diabetes check-up camps} across Mumbai under Techfest's social initiative which set a record of maximum number of diabetes check-ups (1 hundred thousand) in a day {\bf(Limca Book of Records)}
+% \item Managed the accommodation of 500+ participants along with handling crowd of 3000+ people
+% \end{itemize}
+% \vspace{-10pt}
+
+% \section*{\LARGE Courses Undertaken\xfilll[0pt]{0.5pt}}
+% \vspace{-4pt}
+%   \begin{tabular}{p{35mm} p{13.5cm}}
+%     \textbf{Computer Science} & Computer Graphics*, Fundamentals of Digital Image Processing*, Operating Systems*, Database and Information Systems*, Computer Architecture*, Automata Theory**, Implementation of Programming Languages**, Artificial Intelligence**, Data Structures and Algorithms, Computer Networks, Software Systems Lab, Digital Logic Design,  Design and Analysis of Algorithm, Data Analysis and Interpretation, Abstractions and Paradigms, Logic for Computer Science, Discrete Structures, Computer Programming and Utilization\\
+%     \vspace{-2pt}\textbf{Mathematics} &
+%     \vspace{-2pt} Calculus, Linear Algebra, Differential Equations, Numerical Analysis**\\
+%     \vspace{-2pt} \textbf{Others} & \vspace{-2pt} Marketing Management, Basics of Electricity and Magnetism, Introduction to Electrical and Electronics Circuits, Economics, Psychology*, Biology, Quantum Physics and Application, Physical Chemistry, Engineering Graphics and Drawing
+% \\
+%   \end{tabular}
+%   \begin{flushright} * \textit{to be completed by Nov 2018}\\ ** \textit{to be completed by Apr 2019}\end{flushright}
+  
+\vspace{-12pt}
+\section*{\LARGE Extracurriculars\xfilll[0pt]{0.5pt}}
+\vspace{-4pt}
+\begin{itemize}[itemsep = -0.7 mm, leftmargin=*]
+\item Awarded with a {\bf Black belt} in Choi Kwang Do, a \textbf{martial art} form based in South Korea \hfill{\sl \small (2008)}
+\item Winner of Wrestle.AI, a {\bf robot wrestling} and line following robot making competition \hfill{\sl \small (2017)}
+% \item Stood first in Brainathon, a treasure hunt competition for freshmen conducted by Career Cell IITB \hfill{\sl \small (2016)}
+\item Won second position overall in FIRST LEGO League (FLL) Regionals, a \textbf{robotics} competition \hfill{\sl \small (2012)}
+\item Successfully participated in {\bf Indian Robotics Olympiad} (IRO) Nationals (Elementary Category) \hfill{\sl \small (2010)}
+% \item Bagged {\bf Gold} and {\bf Silver Medal} in Chandigarh State Level Choi Kwang Do Martial Art Competition \hfill{\sl \small (2009)}
+\item Built an Arduino based {\bf remote controlled car} while participating in XLR8 in freshman year \hfill{\sl \small (2016)}
+\item Secured second position in Group \textbf{Dance} Competition in Freshiezza, a college freshman  competition \hfill{\sl \small (2016)}
+\item Represented my school in QUANTA, an \textbf{International Level Competition} in Mental Ability \hfill{\sl \small (2014)}
+% \item Attended 2-Day workshop on \textbf{Arduino Programming} organised by Tinkerer\textquotesingle s Lab, IIT Bombay \hfill{\sl \small (2017)}
+\item Completed a year long course under National Service Scheme ({\bf NSS}) IIT Bombay involving ideation and implementation of solutions to social problems and comprising as much as 80 hours of social service \hfill{\sl \small (2017)}
+\end{itemize}
+
+\end{document}

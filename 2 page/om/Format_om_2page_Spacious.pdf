@@ -1,0 +1,404 @@
+\documentclass[11pt]{article}%
+\renewcommand{\baselinestretch}{1} 
+\usepackage{hyphenat}
+\usepackage{amsmath}%
+\usepackage{amsfonts}%
+\usepackage{amssymb}%
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{ragged2e}
+\usepackage{bm}
+\usepackage{color}
+\usepackage{verbatim}
+\usepackage[margin = 20 mm]{geometry}
+ \geometry{
+ a4paper,
+ total={210mm,297mm},
+ left=14mm,
+ right=14mm,
+ top=20mm,
+ bottom=10mm,
+ }
+\usepackage{enumerate}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+%-------------------------------------------
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+
+\pagenumbering{gobble}
+\begin{document}
+\vspace*{4.2cm}
+
+\begin{center}
+\bf{\Large{WORK EXPERIENCE AND SURVEY}}
+\end{center}
+\vspace{-1mm}
+\hrule
+
+{\flushleft \bf {\large{Edelweiss Securities Limited}}, \em{Japan}}\hfill {{{\em{[May '18 - July '18]}}}} \\
+\vspace{-4mm}
+
+\vspace{-2mm}
+{\flushleft \em{Analog LSI Bussiness Division Tuner Product Department}}\\
+\vspace{-1mm}
+
+\begin{itemize}[leftmargin=*]
+    \setlength\itemsep{0.01em}
+	\vspace{-6mm}
+    \item Designed UX and UI for easy access to Transaction Cost Analysis(TCA) report to help traders get actionable insights to enhance and synchronize trading related execution quality, compliance and management
+		\item Implemented login authorization, dynamic forms to query single day and multiple day TCA reports based on date, account ID, portfolio and instrument with download link to summary file on Django framework
+	\item Created infrastructure for logging errors, warnings and regular django server information
+	\item Reviewed and reengineered the code base for plotting transaction execution graphs using python
+	\item Introduced features like embedding the volume traded, hover for more details and colour schemes for different algorithms to help traders compare their performance with the market more efficiently
+\end{itemize}
+
+
+%------------------------------------------------------------------------------------------------------
+
+\begin{center}
+\bf{\Large{Research and Technical Projects}}
+\end{center}
+\vspace{-2mm}
+\hrule
+\vspace{-1mm}
+
+%------------------------------------------------------------------------------------------------------
+
+{\flushleft \bf \large{VCO for 5G and NB-IoT Receivers}} \hfill {{{\em{[May '19 - Present]}}}} 
+\vspace{-2mm}
+ {\flushleft \em{Guide : Prof. Maryam Shojaei Baghini, Electrical Engineering, IIT Bombay}} \hfill{\em{Masters' Thesis}}
+\vspace{3mm}
+\begin{itemize}[leftmargin=*]
+	\setlength\itemsep{0.01em}
+    \vspace{-5mm}	
+    \item Studied phase noise models in Ring Oscillator and effect of bond wire and power supply noise on phase noise 
+    \item Studying Injection Locking of a 4-Stage Ring oscillator with a LC Oscillator to produce 8 phase clock for N-Path Filtering and the effect of locking on phase noise 
+    \item Modelling wire bonds in HFSS to estimate its inductance, to utilize it in the LC tank of the LC oscillator
+\end{itemize}
+
+%------------------------------------------------------------------------------------------------------
+{\flushleft \bf \large{Receiver for IRNSS}} \hfill {{{\em{[May '17 - May '18]}}}} \\
+\vspace{-7mm}
+{\flushleft \em{Indian Regional Navigation Satellite System (IRNSS also named as \textbf{NavIC}) is navigation satellite \nohyphens{constellation} consisting of 7 satellites, completed in April 2016 - \textbf{ISRO}}}\\
+\vspace{-5.5mm}
+\flushleft \textbf{RF Amplfier and Filter design for the Receiver}  \hfill{\em{[May '17 - Jul '17]}}
+\vspace{-2mm}
+{\flushleft \em{Guide: Prof. Shalabh Gupta $\&$ Prof. Sibi Pillai}}  \hfill{\em{Research Project}} 
+\vspace{-1mm}
+\begin{itemize}[leftmargin=*]
+	\setlength\itemsep{0.01em}
+    \vspace{-1mm}
+    \item One of the \textbf{first} student project to conceptualize and fabricate a receiver for IRNSS and first step towards implementing NavIC for \textbf{civil} and \textbf{military} applications as an \textbf{indigenous} alternative to GPS
+    \item Designed and successfully tested a PCB for signal conditioning and out-of-band noise rejection consisting of a Low Noise Amplifier (LNA), a SAW Filter and 2 stage RF amplifier
+\end{itemize}
+
+\vspace{-4mm}
+\flushleft \textbf{Antenna and RF Front-end for the Receiver}  \hfill{\em{[Jan '18 - May '18]}}
+\vspace{-2mm}
+{\flushleft \em{Guide: Prof. Shalabh Gupta}} \hfill{\em{Electronic Design Lab Project}} 
+\vspace{-1mm}
+\begin{itemize}[leftmargin=*]
+	\setlength\itemsep{0.01em}
+    \vspace{-1mm}	
+     \item Designed, fabricated and successfully tested a S-band (2.492048 GHz) right hand circularly polarized (\textbf{RHCP}) dual feed patch antenna with a branch line coupler with 16 MHz bandwidth
+    \item Designed and fabricated a \textbf{4-layer} PCB for \textbf{amplifying} and \textbf{downconverting} the received RF signal in \textbf{S-band} (2.492028 GHz) to baseband (0 Hz) using I/Q Demodulator, PLL and microcontroller 
+    \item Successfully received \textbf{navigation bits} from all satellites using our setup thereby validating the prototype
+    %still to write social impact
+\end{itemize}
+%------------------------------------------------------------------------------------------------------
+
+\flushleft \textbf{Signal Processing for the Receiver}  \hfill{\em{[Jan '18 - May '18]}}
+\vspace{-2mm}
+{\flushleft \em{Guide: Prof. Rajesh Zele}} \hfill{\em{ Supervised Research Exposition}} 
+\vspace{0mm}
+\begin{itemize}[leftmargin=*]
+	\setlength\itemsep{0.01em}
+    \vspace{-2mm}	
+     \item Studied the signal processing block in a IRNSS receiver implemented in MATLAB to get navigation bits 
+     \item Implemented FFT based acquisition methods- code phase domain \& doppler frequency domain thus decreasing the acquisition time compared to the common Serial Search technique in MATLAB 
+     \item Implemented the serial search acquisition block, digital Phase Locked Loop and Delay Locked Loop for tracking using ping-pong buffers on TM320C5515 DSP board to get navigation bits  
+\end{itemize}
+%------------------------------------------------------------------------------------------------------
+\newpage
+
+{\flushleft \bf \large{Disbond Detection}} \hfill {{{\em{[Oct '19 - May '19]}}}} \\
+
+ {\flushleft \em{Guide: Prof. Siddharth Tallur}}
+%stab details to be put if guide rejects
+\vspace{-3mm}
+{\flushleft \em{Aimed at detection of disbonds in carbon fibre honeycomb structure used in launch vehicle - Funded by \textbf{ISRO}}}\\
+
+\flushleft \textbf{Prototype I} \hfill{\em{Course Project : Sensors in Instrumentation}}  
+\vspace{-2mm}
+\begin{itemize}[leftmargin=*]
+	\setlength\itemsep{0.01em}
+    \vspace{0mm}	
+    \item Designed an embedded system to sample Lamb waves on carbon fibre sheet using PWT sensors at 512 kHz by implementing a \textbf{ping-pong} buffer for real time signal processing on TM4C1294XL board using internal ADC
+    \item Implemented real time 512 point FFT and 1-D Continuous Wavelet Transform (\textbf{CWT}) using Morlet wavelet
+\end{itemize}
+
+\flushleft \textbf{Prototype II} \hfill{\em{Research Project}}  
+\vspace{-2mm}
+\begin{itemize}[leftmargin=*]
+	\setlength\itemsep{0.01em}
+    \vspace{0mm}	
+    \item Designed a modular 8 channel data acquisition system with each channel capable of sampling at 4 GHz using a FPGA as buffer, which will then send the sampled data serially to a DSP board for signal processing 
+    \item Implemented the above system using A/D converter ADC121S101 sampling at 1 GHz, Cyclone IV E \textbf{FPGA} and \textbf{Nios II} processor in Platform Designer as a proof of concept 
+    \item Implemented 1-D Continuous Wavelet Transform using Morlet wavelet on TI's DSP C6678 multicore processor
+\end{itemize}
+
+%------------------------------------------------------------------------------------------------------
+
+{\flushleft \bf \large{Communication Subsystem, Advitiy}} \hfill {{{\em{[May '17 - Present]}}}} \\
+
+ {\flushleft \em{Advitiy is the 2nd student satellite of IITB, technically advanced and efficient version of the 1st, Pratham}}
+%stab details to be put if guide rejects
+\vspace{3mm}
+\begin{itemize}[leftmargin=*]
+	\setlength\itemsep{0.01em}
+    \vspace{-5mm}	
+    \item Converted \textbf{2-bit Frequency Shift Keying (FSK)} to \textbf{4-bit FSK} on Downlink board thereby doubling the data rates for satellite communication using transceiver \textbf{CC1101} and power amplifier
+    \item Analyzed \textbf{data budget} and \textbf{communication protocols} to minimize redundancy and unnecessary delays thereby \textbf{improving data rate} from 1200 bits per second (bps) to 9600 bps
+    \item Generated the \textbf{requirements} on and by the communication subsystem on other subsystems and the system for 5 payloads keeping in mind the guidelines prescribed by \textbf{ISRO}
+    \item Programmed \textbf{On-Board Computer} to enable linear reading and writing of \textbf{EEPROM}, overcoming their inherent hardware barrier (memory arranged in different blocks) 
+    
+    %still to write social impact
+\end{itemize}
+
+\vspace{-4mm}
+
+%------------------------------------------------------------------------------------------------------
+
+\begin{center}
+\bf{\Large{Course Projects}}
+\end{center}
+\vspace{-1mm}
+\hrule
+%\vspace{-1mm}
+{\flushleft \bf \large{VCO Design and Layout}} $\mid$ \textit{Radio Frequency Microelectronics Chip Design} \hfill {{{\em{[Mar '19 - May '19]}} }} \\
+\begin{itemize}[leftmargin=*]
+    \setlength\itemsep{0.001em}
+    \vspace{-1.5mm}
+    \item Awarded prize for \textbf{unique design} in Layout Design Competition judged by \textbf{industry experts} from Qualcomm 
+    \item Implemented an LC based VCO with tail noise filtering with a tuning range of 4.5 to 5.5 GHz
+    \item Used capacitor banks and varactor for frequency tuning and achieved a low Phase Noise of -118 dBc/Hz at 1MHz Offset
+\end{itemize}
+
+{\flushleft \bf \large{Folding Flash A/D Converter Design}} $\mid$ \textit{Mixed Signal VLSI Design} \hfill {{{\em{[Mar '19 - Apr '19]}} }} \\
+\begin{itemize}[leftmargin=*]
+    \setlength\itemsep{0.001em}
+    \vspace{-1.5mm}
+    \item Designed 4-Bit 1GS/s Folding Flash ADC using double tail latch with offset cancellation with reference subtraction
+    \item Designed a differential T/H circuit with dummy switches for clock feedthrough and charge-injection compensation
+%    \item Integrated T/H circuit and performed elaborate characterization 
+\end{itemize}
+
+{\flushleft \bf \large{LNA Design and Layout}} $\mid$ \textit{Radio Frequency Microelectronics Chip Design} \hfill {{{\em{[Mar '19 - May '19]}} }} \\
+\begin{itemize}[leftmargin=*]
+    \setlength\itemsep{0.001em}
+    \vspace{-1.5mm}
+    \item Designed a two stage noise cancelling Common Source LNA with inductive source degeneration at 2.49 GHz
+    \item Achieved Noise Figure of 3.2dB, DC gain of 24.9dB, Bandwidth of 100MHz, IIP3 of -10dBm and P1dB of -21.8dBm
+\end{itemize}
+
+{\flushleft \bf \large{16-bit Rational Arithmetic Unit} (RAU)} $\mid$ \textit{VLSI Design Lab} \hfill {{{\em{[Mar '19 - May '19]}} }} \\
+\begin{itemize}[leftmargin=*]
+    \setlength\itemsep{0.001em}
+    \vspace{-1.5mm}
+    \item Designed a 16-bit RAU capable of addition, subtraction, multiplication and division of 16-bit signed numbers
+    \item Implemented a modified \textbf{Dadda reduction} technique for addition of partial products from \textbf{signed multiplication} of 2 or 4 numbers on Cyclone IV E FPGA thus increasing computational speed and reducing the resources required
+%    \item Integrated T/H circuit and performed elaborate characterization 
+\end{itemize}
+
+
+
+%------------------------------------------------------------------------------------------------------
+
+\begin{center}
+\bf{\Large{Positions of Responsibility}}
+\end{center}
+\vspace{-1mm}
+\hrule
+%\vspace{-1mm}
+{\flushleft \bf \large{Technical Secretary}} \hfill {{{\em{[May '16 - March '17]}} }} \\
+\vspace{-6mm}
+{\flushleft  {\em{Hostel 5 , IIT Bombay}}}
+\vspace{0mm}
+\begin{itemize}
+    \setlength\itemsep{0.01em}
+    \vspace{-2mm}
+    \item Awarded Hostel \textbf{Tech Colour} and \textbf{Organizational Special Mention} for display of ardent dedication
+    \item Worked in a team of 3 and in-charge of the \textbf{maintenance} of hostel Tech Room and \textbf{management} of the inventory for the same from a budget of IRN \textbf{80,000}
+    \item Organized hostel teams' participation in \textbf{Tech General Championships} conducted by Student Technical Activities Body (STAB) throughout the year
+\end{itemize}
+
+\vspace{-9pt}
+
+%------------------------------------------------------------------------------------------------------
+
+\begin{center}
+\bf{\Large{Technical Skills}}
+\end{center}
+\hrule
+\vspace{2mm}
+\begin{tabular}{l l}
+
+\textbf{Programming Languages} & C++, Java, Python \vspace{4pt}\\
+\textbf{Simulation \& CAD Softwares} &EAGLE, Mentor Graphics PADS, NGspice, LTSpice, Quartus, MATLAB \vspace{4pt}\\
+\textbf{Libraries} & OpenCV , NumPy and SciPy\vspace{4pt}\\
+
+\textbf{Software Packages} & Adobe Premiere Pro, MS-Office, Solidworks and \LaTeX  \vspace{4pt}\\%check once
+
+	
+\end{tabular}
+\vspace{-9pt}
+
+%------------------------------------------------------------------------------------------------------
+
+\begin{center}
+\bf{\Large{Relevant Courses Undertaken}}
+\end{center}
+\hrule
+\vspace{2mm}
+
+%\begin{tabular}{l l}
+%\hspace{-5mm}\textbf{Electrical Engineering} &CMOS Analog VLSI Design*, EM Waves*,  Microprocessors*, Data Analysis,&& Communication System*, Analog Circuits ana Signals and System \vspace{4pt}\\
+%\hspace{-5mm}\textbf{Mathematics} &Linear Algebra, Calculus, Differential Equations and Complex Analysis \vspace{4pt}\\
+%\hspace{-5mm}\textbf{Programming}&Computer Programming and Utilization \vspace{4pt}\\
+%%\textbf{Physics} &Quantum Mechanics and Electromagnetism  \vspace{4pt}\\
+%\hspace{-5mm}\textbf{Other Courses} &Quantum Mechanics, Electromagnetism, Health Psychology and Economics \vspace{4pt}\\
+%\end{tabular}
+\vspace{-3pt}
+%\begin{flushright} \sl * to be completed by Spring '17 \end{flushright}
+%\vspace{-15pt}
+\vspace{-1mm}
+
+%------------------------------------------------------------------------------------------------------
+\begin{center}
+\bf{\Large{Extra-Curricular Activities}}
+\end{center}
+\hrule
+
+\begin{itemize}[leftmargin=*]
+    \setlength\itemsep{0.01em}
+    \vspace{-1mm}
+    \item Presented different \textbf{amplifiers} in Satellites in \textbf{Ground Station Workshop} conducted by \textbf{Advitiy} for 50+ students from 15+ colleges across India towards achieving the social goal of the Project\hfill {\em{[2017]}}
+    \item Won the \textbf{Best Design} Award for bluetooth controlled obstacle avoiding bot in \textbf{XLR8 2015} \hfill {\em[2015]}
+    \item Actively \textbf{volunteered} in Green Campus, \textbf{National Service Scheme}, IIT Bombay for conservation of plant species in the institute \hfill {\em[2015]}
+    \item \textbf{Directed} and \textbf{edited} music videos for \textbf{Inter-Hostel Competition} \hfill {\em[2015]}
+    \item Led the school \textbf{Cricket} team and represented school in \textbf{Table Tennis} inter-school tournaments. \hfill{\em[2013]}
+\end{itemize}
+
+\end{document}
+
+%-------------------------------------------------------------------------------------------------------
+
+\begin{comment}
+
+{\flushleft \bf \large{EduKit - A Learning Platform}} \hfill {{{\em{[May '17 - June '17]}}}} \\
+
+ {\flushleft \em{Guide: Prof. Rajesh Zele (Department of Electrical Engineering)}}
+%stab details to be put if guide rejects
+\vspace{-3mm}
+{\flushleft \em{An interactive course for electrical beginners to inculcate interest and introduce them to various disciplines}}\\
+\begin{itemize}
+	\setlength\itemsep{0.01em}
+    \vspace{-4mm}	
+    \item Designed \textbf{experiments} like 24 Hour 7 segment LED Clock, Gesture Controlled Bot, etc. to \textbf{enhance hands-on learning} experience during the course  
+    \item Developed various \textbf{Arduino compatible} hardware like sensors, motor drivers, etc. for the above \nohyphens{experiments} keeping in mind the \textbf{cost effectiveness} and \textbf{easy reproducibility} by other Indian Colleges
+    \item Explored the structure and features of existing courses like \textbf{TekBots} (Oregon State University) and \textbf{CEENBot} (University of Nebraska-Lincoln) and suggested improvisations to current course
+    %still to write social impact
+\end{itemize}
+
+\vspace{-5mm}
+
+{\flushleft \bf \large{IoT Palliative Care}} \hfill {{{\em{[Dec '15]}}}} \\
+
+ {\flushleft \em{Guide: Prof. Santosh Noronha (Department of Chemical Engineering)}}
+%stab details to be put if guide rejects
+\vspace{-3mm}
+{\flushleft \em{Tata Centre for Technology and Design}}\\
+\begin{itemize}
+	\setlength\itemsep{0.01em}
+    \vspace{-6mm}	
+    \item Designed and fabricated a \textbf{prototype} of Smart Painkiller Delivery System for terminally ill cancer patients
+    \item Suggested a \textbf{social welfare} scheme of distributing these devices among patients, logging their dosage, managing alerts and \textbf{cost} analysis of the scheme
+\end{itemize}
+
+
+
+{\flushleft \bf \large{IoT Enabled Intravenous Drip Sensor Unit}} \hfill {{\em{[June '16]}}} \\
+
+{\flushleft \em{Kalpana, Tata Centre for Technology and Design}}\\
+\begin{itemize}
+	\setlength\itemsep{0.01em}
+    \vspace{-6mm}
+    \item Designed an IoT device to \textbf{monitor} the rate of intravenous drip and store the data on \textbf{cloud} using \textbf{GSM Module} for improved and efficient monitoring of patient
+    \item Developed a \textbf{Capacitive Sensor} using 2 copper plates and IR sensors to accurately measure drip rate 
+\end{itemize}
+
+
+
+{\flushleft \bf \large{Distance Estimation Algorithm for Stereo Pair Images}} \hfill {{{\em{[June '16]}}}} \\
+
+ {\flushleft \em{Students' Technical Activities Body, IIT Bombay}}
+%stab details to be put if guide rejects
+\vspace{4mm}
+\begin{itemize}
+	\setlength\itemsep{0.01em}
+    \vspace{-6mm}	
+    \item Implemented an algorithm to estimate camera distance from object, with \textbf{distance between the two cameras} and their \textbf{view angles} as inputs
+    \item Calibrated the system to eliminate erros due to \textbf{pan} and \textbf{tilt}
+\end{itemize}
+
+{\flushleft \bf \large{Digit Recognition using Machine Learning}} \hfill {{{May '16 - June '16}}} \\
+
+{\flushleft \em{Season of Code under Web and Coding Club}}\\
+\begin{itemize}
+	\setlength\itemsep{0.01em}
+    \vspace{-6mm}
+    \item Implemented Machine Learning Algorithm, \textbf{Adaptive Boosting} (AdaBoost) for  recognition of digits using SciPy and NumPy for \textbf{vectorization} to obtain \textbf{4 times faster} results than unvectorized code
+
+\end{itemize}
+\end{comment}
+
+\begin{comment}
+{\flushleft \bf \large{JanYu Technology Private Limited - Electrical} Subsystem}\hfill {{{\em{[July '16 - Oct '16]}}}} \\
+\vspace{-4mm}
+
+\vspace{-2mm}
+{\flushleft \em{In collaboration with \textbf{NCETIS}, Electrical Engineering IIT Bombay}}\\
+\vspace{-1mm}
+
+\begin{itemize}
+    \setlength\itemsep{0.01em}
+	\vspace{-6mm}
+    %\item  Implementation of \textbf{UART} communication between the on board computer of the \textbf{ROV} and motor controller
+    %\item Designed a functionality test on Arduino for motors 
+    \item Developed an ATmega core based motor controller having encoder feedback loop for accurate speed control for indigenous defence rovers which are to be used by \textbf{CRPF} for surveillance in naxalite region
+    \item \textbf{Fabricated} the prototype and reduced the expenditure on motor controllers by \textbf{53\%}
+    \item Designed a circuit for \textbf{interfacing} the peripherals like manipulator arm, motor controllers, etc. and made provisions for uninterrupted and regulated \textbf{power} supply
+\end{itemize}
+\end{comment}
