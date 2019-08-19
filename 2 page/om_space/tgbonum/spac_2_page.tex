@@ -12,8 +12,11 @@
 \usepackage{verbatim}
 \usepackage{xcolor}
 \usepackage{tgbonum}
+%\usepackage{bookman}
 %\usepackage{palatino}
-
+%\usepackage{tgschola}
+%\usepackage{tgadventor}
+%\usepackage{tgheros}
 \usepackage[margin = 20 mm]{geometry}
  \geometry{
  a4paper,
@@ -50,27 +53,36 @@
 \newtheorem{summary}[theorem]{Summary}
 \newenvironment{proof}[1][Proof]{\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
 \definecolor{color2}{RGB}{0,150,250}
+\definecolor{bl}{RGB}{0,0,0}
 \pagenumbering{gobble}
 \begin{document}
 \vspace*{4.2cm}
-\begin{flushleft}\bf{\Large{\textcolor{color2}{WORK EXPERIENCE AND SURVEY}}}\end{flushleft}
+\begin{flushleft}\textbf{\Large{\textcolor{bl}{WORK EXPERIENCE AND SURVEY}}}\end{flushleft}
 \vspace{-5pt}
 \hrule
 \vspace{1 pt}
-{\flushleft \textbf {\large{Edelweiss Securities Limited, \em{Mumbai}}}}\hfill {{{\em{[May '18 - July '18]}}}}
+{\flushleft \textbf {\large{Edelweiss Securities Limited, \em{Mumbai}}}}
 \vspace{-0.8em}
 {\flushleft \em{Institutional Equities - Trading Technology Team}}
-\vspace{-5pt}
+\vspace{-0.8em}
+{\flushleft \textrm{SUMMER} \hfill {{{\em{[May '18 - July '18]}}}}\\
+\vspace{-3mm}
 \begin{itemize}[leftmargin=*]
     \setlength\itemsep{1.5pt}
     \setlength\parskip{1.5pt}
     \item Designed UX and UI for easy access to Transaction Cost Analysis(TCA) report to help traders get actionable insights to enhance and synchronize trading related execution quality, compliance and management
 	\item Implemented login authorization, dynamic forms to query single day and multiple day TCA reports based on date, account ID, portfolio and instrument with download link to summary file on Django framework
 	\item Created infrastructure for logging errors, warnings and regular django server information
+\end{itemize}
+{\flushleft \textrm{WINTER} \hfill {{{\em{[Dec '17]}}}}\\
+\vspace{-2mm}
+\begin{itemize}[leftmargin=*]
+	\setlength\itemsep{1.5pt}
+	\setlength\parskip{1.5pt}	
 	\item Reviewed and reengineered the code base for plotting transaction execution graphs using python
 	\item Introduced features like embedding the volume traded, hover for more details and colour schemes for different algorithms to help traders compare their performance with the market more efficiently
 \end{itemize}
-
+%{\flushleft{\large{PV Module Field survey,  \em{Leh}}}}\hfill {{{\em{[June '19]}}}}
 {\flushleft \bf {\large{PV Module Field survey,  \em{Leh}}}}\hfill {{{\em{[June '19]}}}}
 \vspace{-0.8em}
 {\flushleft \em{NCPRE, IIT Mumbai}}
@@ -150,7 +162,7 @@
 	\begin{itemize}[leftmargin=*]
 		\setlength\itemsep{1.5pt}
 		\setlength\parskip{1.5pt}
-		\item Simulated in ADS a 2 stage power amplifier with matching \& bias T circuits with unilateral design approach
+		\item Simulated a 2 stage power amplifier with matching \& bias T circuits with unilateral design approach in ADS
 		\item Designed, fabricated \& testsd the PCB using Vector Network Analyzer for gain and bandwidth specifications
 	\end{itemize}
 %------------------------------------------------------------------------------------------------------
