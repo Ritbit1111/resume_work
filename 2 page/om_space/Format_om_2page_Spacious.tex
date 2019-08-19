@@ -135,10 +135,13 @@
 	\begin{itemize}[leftmargin=*]
 		\setlength\itemsep{1.5pt}
 		\setlength\parskip{1.5pt}
-\item Implemented image compression algorithm using 4-taps, 2-D Daubechies Wavelet Transform on 512 x 512 grayscale image and reconstructed the image using Inverse Daubechies Wavelet Transform
-\item Implemented whole system on Cyclone IV-E Altera FPGA using Nios II processor in platform designer interfaced with SDRAM module on-board which is capable of storing input and output image data of large sizes
-\item Applied low pass and high pass filtering followed by downsampling by 2 on rows and columns sequentially to obtain LL, LH, HL and HH image components
-\item Implemented thresholding on image and performed Huffman encoding to obtain compressed image data which is decoded and then reconstructed back
+		\item Implemented image compression using 4-taps, 2-D Daubechies wavelet transform and Huffaman encoding
+		\item Synthesized the code on Quartus for Cyclone Altera FPGA using Nios II processor and SDRAM module
+%		\item Designed DWT filter in a distributed architecture using blocks of high and low pass filters follwed by downsampling to obtain LL, LH, HL, HH components of 512 x 512 grayscale image
+%\item Implemented image compression algorithm using 4-taps, 2-D Daubechies Wavelet Transform on 512 x 512 grayscale image and reconstructed the image using Inverse Daubechies Wavelet Transform
+%\item Implemented whole system on Cyclone IV-E Altera FPGA using Nios II processor in platform designer interfaced with SDRAM module on-board which is capable of storing input and output image data of large sizes
+\item Applied low pass and high pass filters, implemented using LUTs, followed by downsampling to obtain LL, LH, HL and HH image components on 512 x 512 grayscale image
+%\item Implemented thresholding on image and performed Huffman encoding to obtain compressed image data which is decoded and then reconstructed back
 	\end{itemize}
 %------------------------------------------------------------------------------------------------------
 {\flushleft \textbf {\large{Power Amplifier design}} \hfill {{{\em{[Mar '19 - May '19]}}}}
@@ -238,8 +241,8 @@
 \begin{itemize}[leftmargin=*]
 	\setlength\itemsep{1.5pt}
 	\setlength\parskip{1.5pt}
-	\item Python and it's libraries like pandas, numpy, plotly, bokeh, dango framework
-	\item C++, MATLAB, VHDL, deign tools : Cadence Virtuoso, Quartus
+	\item  Programming Languages : Python, C++, VHDL
+	\item Tools : C++, MATLAB, VHDL, deign tools : Cadence Virtuoso, Quartus
 \end{itemize}
 %------------------------------------------------------------------------------------------------------
 %------------------------------------------------------------------------------------------------------

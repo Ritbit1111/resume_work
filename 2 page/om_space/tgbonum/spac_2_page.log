@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.30)  19 AUG 2019 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.30)  19 AUG 2019 16:38
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -482,36 +482,36 @@ ination with the same identifier (name{page.}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
-l.285 ...olor2}{TECHNICAL SKILLS}}}\end{flushleft}
+l.301 ...VANT COURSES UNDERTAKEN}}}\end{flushleft}
                                                    [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 323.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 326.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.323 \end{document}
+l.326 \end{document}
                      [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 323.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 326.
  (./spac_2_page.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 323.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 323.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 326.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 326.
 Package rerunfilecheck Info: File `spac_2_page.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 323.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 326.
  )
 (\end occurred inside a group at level 11)
 
-### simple group (level 11) entered at line 236 ({)
-### simple group (level 10) entered at line 224 ({)
-### simple group (level 9) entered at line 202 ({)
-### simple group (level 8) entered at line 191 ({)
-### simple group (level 7) entered at line 180 ({)
-### simple group (level 6) entered at line 169 ({)
-### simple group (level 5) entered at line 158 ({)
+### simple group (level 11) entered at line 239 ({)
+### simple group (level 10) entered at line 227 ({)
+### simple group (level 9) entered at line 205 ({)
+### simple group (level 8) entered at line 194 ({)
+### simple group (level 7) entered at line 183 ({)
+### simple group (level 6) entered at line 172 ({)
+### simple group (level 5) entered at line 161 ({)
 ### simple group (level 4) entered at line 145 ({)
 ### simple group (level 3) entered at line 131 ({)
 ### simple group (level 2) entered at line 77 ({)
@@ -530,7 +530,7 @@ Here is how much of TeX's memory you used:
 /fonts/type1/public/tex-gyre/qbkb.pfb></usr/share/texmf/fonts/type1/public/tex-
 gyre/qbkbi.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qbkr.pfb></usr/sha
 re/texmf/fonts/type1/public/tex-gyre/qbkri.pfb>
-Output written on spac_2_page.pdf (3 pages, 127766 bytes).
+Output written on spac_2_page.pdf (3 pages, 127552 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
