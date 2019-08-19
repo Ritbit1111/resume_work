@@ -1,0 +1,390 @@
+\documentclass[10 pt]{article}%
+\renewcommand{\baselinestretch}{1} 
+\usepackage{hyphenat}
+\usepackage{amsmath}%
+\usepackage{amsfonts}%
+\usepackage{amssymb}%
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage{ragged2e}
+\usepackage{bm}
+\usepackage{color}
+\usepackage{verbatim}
+\usepackage{xcolor}
+\usepackage{tgbonum}
+%\usepackage{palatino}
+
+\usepackage[margin = 20 mm]{geometry}
+ \geometry{
+ a4paper,
+ total={210mm,297mm},
+ left=16mm,
+ right=14mm,
+ top=20mm,
+ bottom=15mm,
+ }
+\usepackage{enumerate}
+\usepackage{hyperref}
+\usepackage{enumitem}
+%-------------------------------------------
+\newtheorem{theorem}{Theorem}
+\newtheorem{acknowledgement}[theorem]{Acknowledgement}
+\newtheorem{algorithm}[theorem]{Algorithm}
+\newtheorem{axiom}[theorem]{Axiom}
+\newtheorem{case}[theorem]{Case}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{conclusion}[theorem]{Conclusion}
+\newtheorem{condition}[theorem]{Condition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{criterion}[theorem]{Criterion}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{problem}[theorem]{Problem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{solution}[theorem]{Solution}
+\newtheorem{summary}[theorem]{Summary}
+\newenvironment{proof}[1][Proof]{\textbf{#1.} }{\ \rule{0.5em}{0.5em}}
+\definecolor{color2}{RGB}{0,150,250}
+\pagenumbering{gobble}
+\begin{document}
+\vspace*{4.2cm}
+\begin{flushleft}\bf{\Large{\textcolor{color2}{WORK EXPERIENCE AND SURVEY}}}\end{flushleft}
+\vspace{-5pt}
+\hrule
+\vspace{1 pt}
+{\flushleft \textbf {\large{Edelweiss Securities Limited, \em{Mumbai}}}}\hfill {{{\em{[May '18 - July '18]}}}}
+\vspace{-0.8em}
+{\flushleft \em{Institutional Equities - Trading Technology Team}}
+\vspace{-5pt}
+\begin{itemize}[leftmargin=*]
+    \setlength\itemsep{1.5pt}
+    \setlength\parskip{1.5pt}
+    \item Designed UX and UI for easy access to Transaction Cost Analysis(TCA) report to help traders get actionable insights to enhance and synchronize trading related execution quality, compliance and management
+	\item Implemented login authorization, dynamic forms to query single day and multiple day TCA reports based on date, account ID, portfolio and instrument with download link to summary file on Django framework
+	\item Created infrastructure for logging errors, warnings and regular django server information
+	\item Reviewed and reengineered the code base for plotting transaction execution graphs using python
+	\item Introduced features like embedding the volume traded, hover for more details and colour schemes for different algorithms to help traders compare their performance with the market more efficiently
+\end{itemize}
+
+{\flushleft \bf {\large{PV Module Field survey,  \em{Leh}}}}\hfill {{{\em{[June '19]}}}}
+\vspace{-0.8em}
+{\flushleft \em{NCPRE, IIT Mumbai}}
+\vspace{-5pt}
+\begin{itemize}[leftmargin=*]
+\setlength\itemsep{1.5pt}
+\setlength\parskip{1.5pt}
+%\item Collaborated with 2 others in PV module survey to inspect plant installations and diagnose performance decline
+\item Collaborated with 2 others in PV module survey of 7 days to inspect plant installations and performance degradation
+\item Surveyed 88 modules at 3 sites in Laddakh region and carried out module and string level I-V characterization, IR thermography to detect hotspots and visual imaging to capture cracks on the cells
+\item Calculated average performance degradation rate per year to be  1.42\%, 3.32\% and 3.97\% using MATLAB
+\end{itemize}
+
+{\flushleft \bf {\large{Teaching Assitant}}}\hfill {{{\em{[June '19]}}}}
+\vspace{-0.8em}
+{\flushleft \em{Instructor: Prof. Narendra Shiradkar, EE dept. IIT Mumbai}}
+\vspace{-5pt}
+\begin{itemize}[leftmargin=*]
+	\setlength\itemsep{1.5pt}
+	\setlength\parskip{1.5pt}
+	\item Developed an online portal for 40+ students to access personalized random failure data of devices and predict the nature of failure
+	\item Generated artificial random data for normal, weibull, lognormal and exponential distributions with varying parameters
+\end{itemize}
+%------------------------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------
+\begin{flushleft}\bf{\Large{\textcolor{color2}{RESEARCH AND COURSE PROJECTS}}}\end{flushleft}
+\vspace{-5pt}
+\hrule
+\vspace{1 pt}
+{\flushleft \textbf {\large{Degradation rate determination of solar plant}} |\em{ M.Tech Thesis}}\hfill {{{\em{[June '19]}}}}
+\vspace{-0.8em}
+{\flushleft \em{Guide: Prof. Narendra Shiradkar, EE dept. IIT Mumbai}}
+\vspace{-5pt}
+\begin{itemize}[leftmargin=*]
+	\setlength\itemsep{1.5pt}
+	\setlength\parskip{1.5pt}
+	\item Aimimg to use data science to perform predicitve analysis of reliability of solar modules
+	\item Creating models for solar cells to determine the dependency of parameters on degradation rate
+	\item Implemented single diode model with five parameters for solar cell on python 
+	\item Processed module datasheet values to extract the 5 parameters and solved ideal diode equation.
+	\item Implemented five parameters single diode model for solar cell by extracting the parameters from module datasheet and implicitly solving ideal diode equation using python
+	\item Used Bokeh server to plot the I-V curve interactively with parameters sliders for all five parameters
+	\item Keywords to add : predictive analytics, data science, pv performance, modelling and simulation, reliability,
+\end{itemize}
+%------------------------------------------------------------------------------------------------------
+{\flushleft \textbf {\large{Solar module mounting orientation and axis tracking effect}} \hfill {{{\em{[Mar '19 - May '19]}}}}
+\vspace{-0.8em}
+{\flushleft \em{Course : Design and evaluation of PV power plants}}
+\vspace{-5pt}
+\begin{itemize}[leftmargin=*]
+	\setlength\itemsep{1.5pt}
+	\setlength\parskip{1.5pt}
+  \item Determined the best possible orientation of solar panel for maximum power output in different regions.
+\item Performed parametric analysis on System Advisor Model software by varying tilt and azimuthal angle in northern, southern and equatorial regions for summers and winters.
+%  \item Concluded that optimized tilt angle was latitude angle and panel should face south in northern hemisphere and vice versa
+\item Concluded that optimal tilt angle is latitude angle and optimal azimuth is 180 in north and 0 in south
+\item Observed for equatorial regions optimal azimuth angle changed seasonally and axis tracking was effective
+\end{itemize}
+%------------------------------------------------------------------------------------------------------
+{\flushleft \textbf {\large{Image compression using wavelet transform algorithm}} \hfill {{{\em{[Mar '19 - May '19]}}}}
+	\vspace{-0.8em}
+	{\flushleft \em{Course : VLSI Design Lab}}
+	\vspace{-5pt}
+	\begin{itemize}[leftmargin=*]
+		\setlength\itemsep{1.5pt}
+		\setlength\parskip{1.5pt}
+\item Implemented image compression algorithm using 4-taps, 2-D Daubechies Wavelet Transform on 512 x 512 grayscale image and reconstructed the image using Inverse Daubechies Wavelet Transform
+\item Implemented whole system on Cyclone IV-E Altera FPGA using Nios II processor in platform designer interfaced with SDRAM module on-board which is capable of storing input and output image data of large sizes
+\item Applied low pass and high pass filtering followed by downsampling by 2 on rows and columns sequentially to obtain LL, LH, HL and HH image components
+\item Implemented thresholding on image and performed Huffman encoding to obtain compressed image data which is decoded and then reconstructed back
+	\end{itemize}
+%------------------------------------------------------------------------------------------------------
+{\flushleft \textbf {\large{Power Amplifier design}} \hfill {{{\em{[Mar '19 - May '19]}}}}
+	\vspace{-0.8em}
+	{\flushleft \em{Course : Solid State Microwave devices}}
+	\vspace{-5pt}
+	\begin{itemize}[leftmargin=*]
+		\setlength\itemsep{1.5pt}
+		\setlength\parskip{1.5pt}
+		\item Simulated in ADS a 2 stage power amplifier with matching \& bias T circuits with unilateral design approach
+		\item Designed, fabricated \& testsd the PCB using Vector Network Analyzer for gain and bandwidth specifications
+	\end{itemize}
+%------------------------------------------------------------------------------------------------------
+{\flushleft \textbf {\large{Modelling gesture control}} \hfill {{{\em{[Oct '18 – Nov '19]}}}}
+	\vspace{-0.8em}
+	{\flushleft \em{Course : Sensors in Instrumentation}}
+	\vspace{-5pt}
+	\begin{itemize}[leftmargin=*]
+		\setlength\itemsep{1.5pt}
+\setlength\parskip{1.5pt}
+		\item Modelled 3-D Gesture Control using ADXL345 Digital Accelerometer interfaced with Arduino board
+		\item Estimated inclination angle of the three axes with an error of less than 5\% and plotted the same in real time
+	\end{itemize}
+%------------------------------------------------------------------------------------------------------
+{\flushleft \textbf {\large{IITB-RISC Microprocessor design}} \hfill {{{\em{[Oct '17 – Nov '17]}}}}
+	\vspace{-0.8em}
+	{\flushleft \em{Course : Microprocessors}}
+	\vspace{-5pt}
+	\begin{itemize}[leftmargin=*]
+		\setlength\itemsep{1.5pt}
+\setlength\parskip{1.5pt}
+		\item Designed a 16-bit system with 8 registers having multi-cycle point to point communication infrastructure
+		\item Synthesized VHDL code integrating the controller-FSM and data path for FPGA demonstration
+	\end{itemize}
+%------------------------------------------------------------------------------------------------------
+{\flushleft \textbf {\large{Portable Solar cum Vibration Energy Harvesting Mobile Charger}} \hfill {{{\em{[Oct '18 – Nov '18]}}}}
+	\vspace{-0.8em}
+	{\flushleft \em{Course : Electronic Design Lab}}
+	\vspace{-5pt}
+	\begin{itemize}[leftmargin=*]
+		\setlength\itemsep{1.5pt}
+		\setlength\parskip{1.5pt}
+			\item Designed a suitable AC-DC converter and a DC-DC Boost converter for vibration and solar circuit output
+			\item Prototyped and tested working model of the charger with optimized size and performance
+		\end{itemize}
+%------------------------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------
+
+%------------------------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------
+
+\begin{flushleft}\bf{\Large{\textcolor{color2}{POSITIONS OF RESPONSIBILITY}}}\end{flushleft}
+\vspace{-5pt}
+\hrule
+\vspace{1 pt}
+{\flushleft \textbf {\large{Campaigning Coordinator}} \hfill {{{\em{[2016]}}}}
+	\vspace{-0.8em}
+	{\flushleft \em{Abhuydaya, Social Body IIT Mumbai}}
+	\vspace{-5pt}
+	\begin{itemize}[leftmargin=*]
+		\setlength\itemsep{1.5pt}
+		\setlength\parskip{1.5pt}
+		\item Led volunteer weekends at various schools for the underprivileged with a unified motive of circulating general awareness, computer basics and career counselling, with a team of 20-22 members
+		\item Headed a 23 member volunteer team to HUMARA BACHPAN (National level initiative for children enforcement) in Bhajiwali slums, with a purpose of realizing the harsh situations of kids
+			\item Co-ordinated and volunteered ANTARCHAKSHU, St. Xaviers XRCVC's  initiative demanding the government and the general people full and equal accessibility for the visually challenged science education
+	\end{itemize}
+%------------------------------------------------------------------------------------------------------
+{\flushleft \textbf {\large{Services Coordinators, Mood Indigo IIT Mumbai}} \hfill {{{\em{[December 2016]}}}}
+	\vspace{-0.8em}
+	{\flushleft \em{Asia's largest College Cultural Festival, with a footfall of 130,000+, 160+ international artists}}
+	\vspace{-5pt}
+	\begin{itemize}[leftmargin=*]
+		\setlength\itemsep{1.5pt}
+		\setlength\parskip{1.5pt}
+		\item Worked with a team of 30 to facilitate the smooth functioning of other departments in Mood Indigo '16
+		\item Supervised the execution and logistic requirements of 4 major concerts handling a 15000+ crowd
+	\end{itemize}
+%------------------------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------
+%\begin{center}
+%	
+%\bf{\Large{Technical Skills}}
+%\end{center}
+%\hrule
+%\vspace{2mm}
+%\begin{tabular}{l l}
+%
+%\textbf{Programming Languages} &Python and C++, \vspace{4pt}\\
+%\textbf{Simulation \& CAD Softwares} &EAGLE, Mentor Graphics PADS, NGspice, LTSpice, Quartus, MATLAB \vspace{4pt}\\
+%\textbf{Libraries} & OpenCV , NumPy and SciPy\vspace{4pt}\\
+%
+%\textbf{Software Packages} & Adobe Premiere Pro, MS-Office, Solidworks and \LaTeX  \vspace{4pt}\\%check once
+%
+%	
+%\end{tabular}
+%\vspace{-9pt}
+
+%------------------------------------------------------------------------------------------------------
+
+%\begin{center}
+%\bf{\Large{Relevant Courses Undertaken}}
+%\end{center}
+%\hrule
+%\vspace{2mm}
+
+%\begin{tabular}{l l}
+%\hspace{-5mm}\textbf{Electrical Engineering} &CMOS Analog VLSI Design*, EM Waves*,  Microprocessors*, Data Analysis,&& Communication System*, Analog Circuits ana Signals and System \vspace{4pt}\\
+%\hspace{-5mm}\textbf{Mathematics} &Linear Algebra, Calculus, Differential Equations and Complex Analysis \vspace{4pt}\\
+%\hspace{-5mm}\textbf{Programming}&Computer Programming and Utilization \vspace{4pt}\\
+%%\textbf{Physics} &Quantum Mechanics and Electromagnetism  \vspace{4pt}\\
+%\hspace{-5mm}\textbf{Other Courses} &Quantum Mechanics, Electromagnetism, Health Psychology and Economics \vspace{4pt}\\
+%\end{tabular}
+%\vspace{-3pt}
+%%\begin{flushright} \sl * to be completed by Spring '17 \end{flushright}
+%%\vspace{-15pt}
+%\vspace{-1mm}
+\begin{flushleft}\bf{\Large{\textcolor{color2}{TECHNICAL SKILLS}}}\end{flushleft}
+\vspace{-5pt}
+\hrule
+\vspace{1 pt}
+\begin{itemize}[leftmargin=*]
+	\setlength\itemsep{1.5pt}
+	\setlength\parskip{1.5pt}
+	\item Python and it's libraries like pandas, numpy, plotly, bokeh, dango framework
+	\item C++, MATLAB, VHDL, deign tools : Cadence Virtuoso, Quartus
+\end{itemize}
+%------------------------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------------------------------
+
+\begin{flushleft}\bf{\Large{\textcolor{color2}{RELEVANT COURSES UNDERTAKEN}}}\end{flushleft}
+\vspace{-5pt}
+\hrule
+\vspace{1 pt}
+	\begin{itemize}[leftmargin=*]
+	\setlength\itemsep{1.5pt}
+	\setlength\parskip{1.5pt}
+	\item {\textbf{Solar and Reliability}} : Design and evluation of PV Plants, Reliability and Failure Analysis of Electronic Devices
+	\item \textbf{Analog VLSI} : CMOS Analog VLSI Design, Mixed Signal VLSI Design, RF Microelectronics Chip Design
+	\item \textbf{Others} : Data Structure and Algorithms,  Probability and Random Processes, Intro to Quantum Mechanics
+\end{itemize}
+%------------------------------------------------------------------------------------------------------
+\begin{flushleft}\bf{\Large{\textcolor{color2}{EXTRA CURRICULAR ACTIVITIES}}}\end{flushleft}
+\vspace{-5pt}
+\hrule
+\vspace{1 pt}
+\begin{itemize}[leftmargin=*]
+	\setlength\itemsep{1.5pt}
+	\setlength\parskip{1.5pt}
+	\item Acheived Black belt (1st Dan) in Shotokan style Karate after regular training of 4 years
+    \item Bagged silver medal in the Street Play competition, Freshiezza (Freshmen cultural competitions)
+    \item Member of Gold medal recieving squad in Badminton General Championship amoung 12 hostels 2018
+	\item Pursuing 50 hours official German language course provided by International Relation Cell, IIT Mumbai
+\end{itemize}
+
+\end{document}
+
+%-------------------------------------------------------------------------------------------------------
+
+\begin{comment}
+
+{\flushleft \bf \large{EduKit - A Learning Platform}} \hfill {{{\em{[May '17 - June '17]}}}} \\
+
+ {\flushleft \em{Guide: Prof. Rajesh Zele (Department of Electrical Engineering)}}
+%stab details to be put if guide rejects
+\vspace{-3mm}
+{\flushleft \em{An interactive course for electrical beginners to inculcate interest and introduce them to various disciplines}}\\
+\begin{itemize}
+	\setlength\itemsep{0.01em}
+    \vspace{-4mm}	
+    \item Designed \textbf{experiments} like 24 Hour 7 segment LED Clock, Gesture Controlled Bot, etc. to \textbf{enhance hands-on learning} experience during the course  
+    \item Developed various \textbf{Arduino compatible} hardware like sensors, motor drivers, etc. for the above \nohyphens{experiments} keeping in mind the \textbf{cost effectiveness} and \textbf{easy reproducibility} by other Indian Colleges
+    \item Explored the structure and features of existing courses like \textbf{TekBots} (Oregon State University) and \textbf{CEENBot} (University of Nebraska-Lincoln) and suggested improvisations to current course
+    %still to write social impact
+\end{itemize}
+
+\vspace{-5mm}
+
+{\flushleft \bf \large{IoT Palliative Care}} \hfill {{{\em{[Dec '15]}}}} \\
+
+ {\flushleft \em{Guide: Prof. Santosh Noronha (Department of Chemical Engineering)}}
+%stab details to be put if guide rejects
+\vspace{-3mm}
+{\flushleft \em{Tata Centre for Technology and Design}}\\
+\begin{itemize}
+	\setlength\itemsep{0.01em}
+    \vspace{-6mm}	
+    \item Designed and fabricated a \textbf{prototype} of Smart Painkiller Delivery System for terminally ill cancer patients
+    \item Suggested a \textbf{social welfare} scheme of distributing these devices among patients, logging their dosage, managing alerts and \textbf{cost} analysis of the scheme
+\end{itemize}
+
+
+
+{\flushleft \bf \large{IoT Enabled Intravenous Drip Sensor Unit}} \hfill {{\em{[June '16]}}} \\
+
+{\flushleft \em{Kalpana, Tata Centre for Technology and Design}}\\
+\begin{itemize}
+	\setlength\itemsep{0.01em}
+    \vspace{-6mm}
+    \item Designed an IoT device to \textbf{monitor} the rate of intravenous drip and store the data on \textbf{cloud} using \textbf{GSM Module} for improved and efficient monitoring of patient
+    \item Developed a \textbf{Capacitive Sensor} using 2 copper plates and IR sensors to accurately measure drip rate 
+\end{itemize}
+
+
+
+{\flushleft \bf \large{Distance Estimation Algorithm for Stereo Pair Images}} \hfill {{{\em{[June '16]}}}} \\
+
+ {\flushleft \em{Students' Technical Activities Body, IIT Bombay}}
+%stab details to be put if guide rejects
+\vspace{4mm}
+\begin{itemize}
+	\setlength\itemsep{0.01em}
+    \vspace{-6mm}	
+    \item Implemented an algorithm to estimate camera distance from object, with \textbf{distance between the two cameras} and their \textbf{view angles} as inputs
+    \item Calibrated the system to eliminate erros due to \textbf{pan} and \textbf{tilt}
+\end{itemize}
+
+{\flushleft \bf \large{Digit Recognition using Machine Learning}} \hfill {{{May '16 - June '16}}} \\
+
+{\flushleft \em{Season of Code under Web and Coding Club}}\\
+\begin{itemize}
+	\setlength\itemsep{0.01em}
+    \vspace{-6mm}
+    \item Implemented Machine Learning Algorithm, \textbf{Adaptive Boosting} (AdaBoost) for  recognition of digits using SciPy and NumPy for \textbf{vectorization} to obtain \textbf{4 times faster} results than unvectorized code
+
+\end{itemize}
+\end{comment}
+
+\begin{comment}
+{\flushleft \bf \large{JanYu Technology Private Limited - Electrical} Subsystem}\hfill {{{\em{[July '16 - Oct '16]}}}} \\
+\vspace{-4mm}
+
+\vspace{-2mm}
+{\flushleft \em{In collaboration with \textbf{NCETIS}, Electrical Engineering IIT Bombay}}\\
+\vspace{-1mm}
+
+\begin{itemize}
+    \setlength\itemsep{0.01em}
+	\vspace{-6mm}
+    %\item  Implementation of \textbf{UART} communication between the on board computer of the \textbf{ROV} and motor controller
+    %\item Designed a functionality test on Arduino for motors 
+    \item Developed an ATmega core based motor controller having encoder feedback loop for accurate speed control for indigenous defence rovers which are to be used by \textbf{CRPF} for surveillance in naxalite region
+    \item \textbf{Fabricated} the prototype and reduced the expenditure on motor controllers by \textbf{53\%}
+    \item Designed a circuit for \textbf{interfacing} the peripherals like manipulator arm, motor controllers, etc. and made provisions for uninterrupted and regulated \textbf{power} supply
+\end{itemize}
+\end{comment}
