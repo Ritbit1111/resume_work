@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.30)  19 AUG 2019 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.30)  19 AUG 2019 22:25
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -427,13 +427,13 @@ LaTeX Info: Redefining \nameref on input line 50.
 \@outlinefile=\write3
 \openout3 = `Format_om_2page_Spacious.out'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
@@ -455,32 +455,33 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.276 \end{document}
+l.284 \end{document}
                      [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
  (./Format_om_2page_Spacious.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
 Package rerunfilecheck Info: File `Format_om_2page_Spacious.out' has not change
 d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 284.
  )
-(\end occurred inside a group at level 8)
+(\end occurred inside a group at level 9)
 
-### simple group (level 8) entered at line 213 ({)
-### simple group (level 7) entered at line 191 ({)
-### simple group (level 6) entered at line 180 ({)
-### simple group (level 5) entered at line 169 ({)
-### simple group (level 4) entered at line 158 ({)
-### simple group (level 3) entered at line 147 ({)
-### simple group (level 2) entered at line 131 ({)
-### simple group (level 1) entered at line 117 ({)
+### simple group (level 9) entered at line 221 ({)
+### simple group (level 8) entered at line 199 ({)
+### simple group (level 7) entered at line 188 ({)
+### simple group (level 6) entered at line 177 ({)
+### simple group (level 5) entered at line 166 ({)
+### simple group (level 4) entered at line 155 ({)
+### simple group (level 3) entered at line 139 ({)
+### simple group (level 2) entered at line 125 ({)
+### simple group (level 1) entered at line 61 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
  7108 strings out of 492982
@@ -489,14 +490,14 @@ Here is how much of TeX's memory you used:
  10604 multiletter control sequences out of 15000+600000
  5267 words of font info for 19 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,5n,32p,259b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,5n,32p,259b,672s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Format_om_2page_Spacious.pdf (2 pages, 97372 bytes).
+Output written on Format_om_2page_Spacious.pdf (2 pages, 97449 bytes).
 PDF statistics:
  40 PDF objects out of 1000 (max. 8388607)
  29 compressed objects within 1 object stream
