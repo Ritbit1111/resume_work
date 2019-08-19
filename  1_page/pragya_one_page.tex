@@ -1,0 +1,176 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.5in, bottom=0.5in, left=0.55in, right=0.61in]{geometry}
+
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\hyphenpenalty=10000
+\selectfont
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage[T1]{fontenc}
+\usepackage
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.69}
+%\definecolor{mygrey}{HTML}{D3D3D3}
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+\pagestyle{empty}
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\normalsize \colorbox{mygrey}{\begin{minipage}{0.995\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+\begin{document}
+\vspace*{135pt}
+\setlength{\leftmargini}{1em}
+\vspace{-1.32cm}
+\noindent \resheading{\textbf{PROFFESSIONAL EXPERIENCE } }\\[\lsep]
+
+\begin{itemize} \itemsep \isep 
+\vspace{-0.07cm}
+\item \textbf{\large Edelweiss Securities Limited} | Trading Technology Team\hfill\emph{(May'18-July'18)} \\
+	\begin{itemize}\itemsep \isep
+     \vspace{-0.70cm}
+    \item Designed UX and UI for easy access to Transaction Cost Analysis(TCA) report to help traders get actionable insights to enhance and synchronize trading related execution quality, compliance and management
+\item Implemented login authorization and dynamic forms to query single day and multiple day TCA reports based on date, account ID, portfolio and instrument with download link to summary file on Django framework
+\item Created infrastructure for logging errors, warnings and regular django server information
+	\end{itemize}
+\end{itemize}
+\vspace{-0.2cm}
+\noindent \resheading{\textbf{RESEARCH EXPERIENCE AND SURVEY} }\\[\lsep]
+\begin{itemize} \itemsep \isep 
+\vspace{-0.0cm}
+
+\item \textbf{\large Degradation rate determination of solar plant} | Masters' Thesis \hfill \emph{(May'19-Present)} \\
+%   \emph{Guide: Prof. Girish Kumar, IIT Bombay}
+% 	\hfill \emph{Dual Degree Project}\\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+	\vspace{-0.7cm}
+		\item Aimimg to use data science to perform predicitve analysis of reliability of solar modules
+	\item Creating models for solar cells to determine the dependency of degradation rate on various parameters
+%	\item Implemented five parameters single diode model for solar cell by extracting the parameters from module datasheet and implicitly solving ideal diode equation using python
+		\item Implemented five parameters single diode model for solar cell by using module datasheet values on python
+	\item Used Bokeh server to plot the I-V curve interactively with sliders for all five parameters
+	%	\item Keywords to add : predictive analytics, data science, pv performance, modelling and simulation, reliability,
+    \end{itemize}
+
+\vspace{-0.18cm}
+	
+\item \textbf{\large PV Module Field survey in Leh} | NCPRE, IIT Bombay \hfill \emph{(Jan'19-May'19)} \\
+%   \emph{Guide: Prof. Rajbabu Velmurugan}
+% 	\hfill \emph{Supervised Research Expedition}\\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+    \vspace{-0.70cm}
+\item Collaborated with 2 others in survey of 7 days to inspect solar plant installations and performance degradation
+\item Surveyed 88 modules at 3 sites in Laddakh region and carried out module and string level I-V characterization, IR thermography for hotspot detection and visual imaging to capture cracks and pyhsical damages of the cells
+\item Calculated average performance degradation rate per year to be  1.42\%, 3.32\% and 3.97\% using MATLAB	
+\end{itemize} 
+\end{itemize}
+\vspace{-0.2cm}
+\noindent \resheading{\textbf{MAJOR PROJECTS } }\\[\lsep]
+% \vspace{m}
+\begin{itemize} \itemsep \isep 
+\vspace{-0.01cm}
+\item \textbf{\large Solar module mounting orientation} | Course: Design and eval. of PV power plants \hfill \emph{(Mar'19-May'19)} \\
+	\begin{itemize}\itemsep \isep
+	\vspace{-0.70cm}
+ \item Determined the best possible orientation of solar panel for maximum power output in different regions.
+\item Performed parametric analysis on System Advisor Model software by varying tilt and azimuthal angle% in northern, southern and equatorial regions for summers and winters.
+%  \item Concluded that optimized tilt angle was latitude angle and panel should face south in northern hemisphere and vice versa
+\item Concluded that optimal tilt angle is latitude angle and optimal azimuth is 180 in north and 0 in south
+%\item Observed for equatorial regions optimal azimuth angle changed seasonally and axis tracking was effective
+ 	\end{itemize}
+% 	 p
+\vspace{-0.18cm}
+
+\item \textbf{\large Portable Solar cum Vibration Energy Harvesting Phone Charger} | Design Lab \hfill \emph{(Jan'18-May'18)} \\
+%   \emph{Guide: Prof. Joseph John}
+% 	\hfill \emph{Electronic Design Lab Project}\\[-0.6cm]
+\begin{itemize}\itemsep \isep
+	\vspace{-0.70cm}
+	\item Designed a suitable AC-DC converter for EMI voltage, and a \textbf{Boost converter} for solar cell circuit output
+	\item Prototyped and tested a working model with optimized size and performance 
+\end{itemize}
+\vspace{-0.18cm}
+
+\item \textbf{\large Power Amplifier design} | Course: Solid State Microwave devices \hfill \emph{(Mar'19-May'19)} \\
+	\begin{itemize}\itemsep \isep
+	\vspace{-0.70cm}
+		\item Simulated a 2 stage power amplifier with matching \& bias-T circuits with unilateral design approach in ADS 
+	\item Designed, fabricated \& tested the PCB using Vector Network Analyzer for gain and bandwidth specifications
+	\end{itemize}
+
+\vspace{-0.18cm}
+
+\item \textbf{\large Maze Solver} | Summer School of Code, WnCC IIT Bombay \hfill \emph{(July'18-Nov'18)} \\
+	\begin{itemize}\itemsep \isep
+	
+	\vspace{-0.70cm}
+		\item Implemented command line Image Processing Project on Python platform assisted by OpenCV library
+\item Used thresholding, filters, contour extraction, and thinning (one pixel width) to get a path from start to end.
+	\end{itemize}
+
+% \vspace{-0.15cm}
+
+\end{itemize}
+
+\vspace{-0.2cm}
+\noindent \resheading{\textbf{POSITIONS OF RESPONSIBILITY}}\\[\lsep]
+\vspace{-0.07cm}
+\begin{itemize}
+
+\itemsep \isep 
+\item \textbf{\large Campaigning Coordinator}| {Abhuydaya, Social Body IIT Bombay} \hfill \emph{(Apr'19-Apr'18)}
+%\newline\emph{NSS is IITB's largest student volunteer body, serving 100k+ nationwide via public welfare activities}
+\vspace{-0.3cm}
+
+	\begin{itemize}\itemsep \isep
+		\item Led volunteer weekends at various schools for the underprivileged with a unified motive of circulating general awareness, computer basics and career counselling, with a team of 20-22 members
+\item Headed a 23 member volunteer team to HUMARA BACHPAN (National level initiative for children enforcement) in Bhajiwali slums, with a purpose of realizing the harsh situations of kids
+\item Co-ordinated and volunteered ANTARCHAKSHU, St. Xavier’s XRCVC’s initiative to demand from the government and people equal accessibility to science education for visually challenged people
+   
+\end{itemize}
+
+\vspace{-0.22cm}
+\item \textbf{\large Teaching Assistant} | Course: Reliability and Failure Analysis \hfill \emph{(Jul'19-Present)} \\[-0.6cm]
+\vspace{-0.12cm}
+\vspace{-0.02cm}
+	\begin{itemize}\itemsep \isep
+			\item Developed online portal for 40+ students to access personalized random failure data for their course project% to predict the nature of failure
+		\item Generated artificial random data for normal, weibull, lognormal and expo. distributions with varying parameters
+
+\end{itemize}
+ 
+\end{itemize}
+
+\vspace{-0.20cm}
+
+\noindent \resheading{\textbf{EXTRA CURRICULAR ACTIVITIES} }\\[\lsep]
+\begin{itemize}
+
+\itemsep \isep
+\vspace{-0.01cm}
+\item Secured \textbf{third position} in Hostel Chess General Championship \hfill \emph{('17-'18)} 
+	\item Bestowed with a Black belt (1st Dan) in Shotokan style Karate after regular training of 4 years \hfill{\textit{[2009]}}
+\item Member of Gold medal recieving squad in Badminton General Championship among 12 hostels \hfill{\textit{[2018]}}
+\item Awarded silver medal in the Street Play competition, Freshiezza (Freshmen cultural competitions) \hfill{\textit{[2015]}}
+\item Pursuing 50 hours official German language course provided by International Relation Cell, IIT Bombay \hfill{\textit{[2019]}}
+\end{itemize}
+\vspace{-0.15cm}
+\vspace{-0cm}
+
+\noindent \textbf{Hobbies} \\
+Badminton |Trekking | Travelling | Cooking 
+\end{document}
+
