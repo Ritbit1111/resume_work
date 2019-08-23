@@ -1,0 +1,209 @@
+\documentclass[a4paper, 10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.5in, bottom=0.5in, left=0.55in, right=0.61in]{geometry}
+
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\hyphenpenalty=10000
+\selectfont
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage[T1]{fontenc}
+\linespread{0.9}
+\usepackage
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.7}
+%\definecolor{mygrey}{HTML}{D3D3D3}
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+\pagestyle{empty}
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\normalsize \colorbox{mygrey}{\begin{minipage}{0.995\textwidth}{\begin{center}				\textbf{#1 \vphantom{p\^{E}}}\end{center}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+\begin{document}
+\vspace*{135pt}
+\setlength{\leftmargini}{1em}
+\vspace{-1.32cm}
+\noindent \resheading{\textbf{PROFFESSIONAL EXPERIENCE} }\\[\lsep]
+\vspace{5pt}
+\begin{itemize} \itemsep \isep 
+\vspace{-0.03cm}
+\item \textbf{\large Edelweiss Securities Limited | Trading Technology Team}\hfill\emph{(May'18-July'18)} \\
+% \textit{Guide: Prof. Narendra Shiradkar, EE Dept. IIT Bombay}\hfill{\em{(Jul'19-Present)}}\\
+\vspace{2pt}
+	\begin{itemize}\itemsep \isep
+     \vspace{-0.70cm}
+    \item Designed \textbf{UX} and \textbf{UI} for easy access to \textbf{Transaction Cost Analysis (TCA)} report to help traders get actionable \textbf{insights} to enhance \textbf{trading} related \textbf{execution quality}, compliance and management reporting capabilities
+\item Implemented \textbf{login authorization} and \textbf{dynamic forms} to query single day and multiple day TCA report based on date, account ID, portfolio and instrument with \textbf{download link} to summary file on \textbf{Django framework}
+\item Constructed infrastructure for \textbf{logging errors}, warnings and regular django server info for future \textbf{debugging}
+	\end{itemize}
+\end{itemize}
+\vspace{-0.2cm}
+\noindent \resheading{\textbf{RESEARCH EXPERIENCE AND SURVEY} }\\[\lsep]
+\vspace{5pt}
+\begin{itemize} \itemsep \isep 
+\vspace{-0.05cm}
+
+\item \textbf{\large Data Driven Techniques to Predict Performance Loss of PV Plants | Master's Thesis}\\
+%\item \textbf{\large Data Driven Techniques to predict PV Plants Performance Loss} | Masters' Thesis \hfill \emph{(Jul'19-Present)}\\
+ \textit{Guide: Prof. Narendra Shiradkar, EE Dept. IIT Bombay}\hfill{\em{(Jul'19-Present)}}\\
+%{\flushleft \em{Guide: Prof. Narendra Shiradkar, EE Dept. IIT Bombay}\hfill{\em{[June '19]}}}
+%   \emph{Guide: Prof. Girish Kumar, IIT Bombay}
+% 	\hfill \emph{Dual Degree Project}\\[-0.6cm]
+\vspace{2pt}
+	\begin{itemize}\itemsep \isep
+	\vspace{-0.7cm}
+		\item Developing \textbf{data driven techniques} for predicting the degradation rates \& future revenues of solar PV plants
+%	\item Designing predictive analytics tools capable of handling Big Data for extracting the performance loss rate of PV plants from time series data of I-V measurements.
+%	\item  Designing predictive analytics tools for handling Big Data in performance loss rate extraction from time series I-V data% 
+%	of I-V measurements
+\item Building \textbf{predictive analytics} tools capable of handling \textbf{big data} for extracting the \textbf{performance degradation} rate (with confidence bounds) of solar PV plants from time series data of current-voltage(I-V) measurements.
+%		\item Aimimg to use data science to perform predicitve analysis of reliability of solar modules
+%	\item Creating models for solar cells to determine the dependency f degradation rate on various parameters
+%	\item Implemented five parameters single diode model for solar cell by extracting the parameters from module datasheet and implicitly solving ideal diode equation using python
+%		\item Implemented five parameters single diode model for solar cell by using module datasheet values on python
+		\item  Implemented a \textbf{five parameter single diode model} for PV modules in Python that can predict the module power at \textbf{any irradiance and temperature} by extracting the parameters from the module datasheet
+	\item Utilized Bokeh server to plot the I-V curve (with interactive sliders) by numerically solving the diode equation
+	%	\item Keywords to add : predictive analytics, data science, pv performance, modelling and simulation, reliability,
+    \end{itemize}
+
+\vspace{-0.1cm}
+	
+\item \textbf{\large PV Module Field Survey in Leh | NCPRE, IIT Bombay} \hfill \emph{(Jan'19-May'19)} \\
+\vspace{2pt}
+%   \emph{Guide: Prof. Rajbabu Velmurugan}
+% 	\hfill \emph{Supervised Research Expedition}\\[-0.6cm]
+	\begin{itemize}\itemsep \isep
+    \vspace{-0.70cm}
+\item Inspected solar plant installations and carried out survey on their performance degradation in Leh
+\item Surveyed \textbf{88 modules at 3 sites in Ladakh} region and carried out module and string level \textbf{I-V characterization}, IR thermography for \textbf{hotspot} detection and visual imaging to capture \textbf{cracks} and physical damages of the cells
+\item Calculated average performance degradation rate per year to be \textbf{1.42\%, 3.32\% and 3.97\%}	
+\end{itemize} 
+\end{itemize}
+\vspace{-0.2cm}
+\noindent \resheading{\textbf{MAJOR PROJECTS } }\\[\lsep]
+\vspace{5pt}
+% \vspace{m}
+\begin{itemize} \itemsep \isep 
+\vspace{-0.01cm}
+\item \textbf{\large Solar Module Mounting Orientation} | \textit{Course: Design and Evaluation of PV Power Plants} \hfill \emph{(Mar'19-May'19)} \\
+    \vspace{2pt}
+	\begin{itemize}\itemsep \isep
+	\vspace{-0.70cm}
+ \item Determined the best possible orientation of solar panel for \textbf{maximum power output} in different regions.
+\item Performed \textbf{parametric analysis on System Advisor Model software} by varying tilt and azimuthal angle% in northern, southern and equatorial regions for summers and winters.
+%  \item Concluded that optimized tilt angle was latitude angle and panel should face south in northern hemisphere and vice versa
+\item Concluded that optimal tilt angle is latitude angle and optimal azimuth is 180 in north and 0 in south
+%\item Observed for equatorial regions optimal azimuth angle changed seasonally and axis tracking was effective
+ 	\end{itemize}
+\vspace{-0.18cm}
+
+\item \textbf{\large Portable Solar cum Vibration Energy Harvesting Phone Charger} |  \textit{Design Lab} \hfill \emph{(Jan'18-Apr'18)} \\
+%   \emph{Guide: Prof. Joseph John}
+% 	\hfill \emph{Electronic Design Lab Project}\\[-0.6cm]
+    \vspace{2pt}
+\begin{itemize}\itemsep \isep
+	\vspace{-0.70cm}
+			\item Prototyped and tested working model of solar cum vibration charger with optimized size and efficiency
+\item Designed a suitable \textbf{AC-DC} converter and a \textbf{DC-DC Boost} converter for vibration and solar circuit output
+\end{itemize}
+\vspace{-0.18cm}
+
+\item \textbf{\large Power Amplifier Design} |  \textit{Course: Solid State Microwave Devices} \hfill \emph{(Mar'19-May'19)} \\
+    \vspace{2pt}
+	\begin{itemize}\itemsep \isep
+	\vspace{-0.70cm}
+		\item Simulated a 2 stage power amplifier with \textbf{matching \& bias-T} circuits with unilateral design approach in ADS 
+	\item Designed, fabricated \& tested the PCB using Vector Network Analyzer for \textbf{gain and bandwidth} specifications
+	\end{itemize}
+
+\vspace{-0.18cm}
+
+\item \textbf{\large Maze Solver} | \textit{ Summer School of Code, WnCC IIT Bombay} \hfill \emph{(May'16-Jul'16)} \\
+    \vspace{2pt}
+	\begin{itemize}\itemsep \isep
+	
+	\vspace{-0.70cm}
+		\item Implemented command line \textbf{Image Processing Project} on Python platform assisted by \textbf{OpenCV} library
+\item Used thresholding, filters, \textbf{contour extraction}, and \textbf{thinning} (one pixel width) to get a path from start to end
+	\end{itemize}
+
+% \vspace{-0.15cm}
+
+\end{itemize}
+
+\vspace{-0.2cm}
+\noindent \resheading{\textbf{POSITIONS OF RESPONSIBILITY}}\\[\lsep]
+\vspace{5pt}
+\begin{itemize}
+
+\itemsep \isep 
+\item \textbf{\large Teaching Assistant | Course: Reliability and Failure Analysis} \hfill \emph{(Jul'19-Present)} \\[-0.6cm]
+%\vspace{-0.1cm}
+%\vspace{-0.02cm}
+	\begin{itemize}\itemsep \isep
+		\item Developing an online portal using interactive Python library \textbf{Bokeh} \& Jupyter notebooks that would provide the students \textbf{personalized random failure data} of various distributions for their course project \textbf{(Virtual Lab)}
+%			\item Developed online portal for 40+ students to access personalized random failure data for their course project% to predict the nature of failure
+		\item Generated \textbf{artificial} random data of \textbf{Normal, Weibull and Lognormal} distributions for modeling \& simulation
+
+\end{itemize}
+\vspace{-0.22cm}
+ \item \textbf{\large Campaigning Coordinator| {Abhuyday, Social Body IIT Bombay}} \hfill\emph{(2016)}
+ %\newline\emph{NSS is IITB's largest student volunteer body, serving 100k+ nationwide via public welfare activities}
+ \vspace{-0.3cm}
+ 
+ \begin{itemize}\itemsep \isep
+ 	\item Led volunteer weekends at schools for the underprivileged to instil \textbf{computer basics and career counselling}	
+ 	\item Co-ordinated and volunteered ANTARCHAKSHU, St.\ Xavier’s XRCVC’s initiative with a motive to demand from the government and people \textbf{equal accessibility} to science education for \textbf{visually challenged people}
+ \end{itemize}
+\end{itemize}
+
+\vspace{-0.20cm}
+
+\noindent \resheading{\textbf{TECHNICAL SKILLS} }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55
+%\begin{itemize}
+%	\setlength\itemsep{0.1pt}
+%	\setlength\parskip{0.1pt}
+%	%\item Secured \textbf{third position} in Hostel Chess General Championship \hfill \emph{('17-'18)} 
+%	\item  Programming Languages : \textbf{Python, C++}, VHDL
+%	\item Tools : MATLAB, SAM, Cadence Virtuoso, Quartus, ADS, Bokeh, Django, OpenCV
+%\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%55%%%5
+\begin{tabular}{m{4.5cm}   m{14cm}} 
+	\vspace{0.1cm}
+	\textbf{Programming Languages} & \vspace{0.1cm} Python, C++, VHDL, Assembly\\ 
+	\textbf{Tools \& Libraries} & MATLAB, R, Cadence Virtuoso, Quartus, ADS, Bokeh, Django, PVLib, Pandas, Numpy \\  
+\end{tabular}\\
+%\vspace{-0.2cm}
+\noindent \resheading{\textbf{EXTRA CURRICULAR ACTIVITIES} }
+\vspace{-0.4cm}
+\begin{itemize}
+\setlength\itemsep{0.1pt}
+\setlength\parskip{0.1pt}
+%\item Secured \textbf{third position} in Hostel Chess General Championship \hfill \emph{('17-'18)} 
+\item Bestowed with a \textbf{Black belt (1st Dan)} at an age of 12 in Shotokan Karate after regular training of \textbf{4 years} \hfill\emph{(2009)}
+%\item Member of Gold medal recieving squad in Badminton General Championship among 12 hostels \hfill\emph{(2018)}
+\item Recieved \textbf{Gold medal in Badminton} inter hostel General Championship (11 participants) in IIT Bombay\hfill\emph{(2018)}
+\item Awarded \textbf{Silver medal for Street Play} Mann ki Bhadas" in Freshmen cultural competitions, IIT Bombay \hfill\emph{(2015)}
+\item Pursuing 50 hours official \textbf{German language course} provided by International Relation Cell, IIT Bombay \hfill\emph{(2019)}
+\end{itemize}
+%\vspace{-0.15cm}
+%\vspace{-0cm}
+%
+%\noindent \textbf{Hobbies} \\
+%Badminton |Trekking | Travelling | Cooking 
+\end{document}
+
